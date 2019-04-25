@@ -52,6 +52,16 @@ public class TempMethod2 {
          
          return 5/9 * Ftemp - 32;
      }
+    
+        public static void main(String[] args) {
+        
+        TempMethod2 t = new TempMethod2();
+        
+        t.getTemperature();
+        t.getFahrenheitTemp();
+        t.getKelvinTemp();
+
+    }
 }
 
 
